@@ -66,6 +66,9 @@ Como premissa do projeto foi necessário a implementação da integração da ap
 ## Implementação
 Para implantar o projeto, utilizamos o conceito de containers com o Docker como ferramenta de gerenciamento. Nosso projeto usa tanto Dockerfile quanto Docker-compose. Utilizamos uma imagem do Java com Spring e uma imagem do Postgres para rodar o banco de dados localmente e realizar as operações de CRUD da nossa aplicação.
 
+## Sonar
+https://sonarcloud.io/project/overview?id=grupo27-6soat-fiap_grupo27-6soat-fiap-foodtech-fase04-pedido-service
+
 # Como executar o projeto
 
 ## Back end
