@@ -68,6 +68,8 @@ Para implantar o projeto, utilizamos o conceito de containers com o Docker como 
 
 ## Sonar
 https://sonarcloud.io/project/overview?id=grupo27-6soat-fiap_grupo27-6soat-fiap-foodtech-fase04-pedido-service
+![image](https://github.com/user-attachments/assets/7d4664e1-4b30-47f1-b9cc-9c0521a77784)
+
 
 # Como executar o projeto
 
