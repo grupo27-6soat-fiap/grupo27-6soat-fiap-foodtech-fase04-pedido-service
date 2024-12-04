@@ -61,7 +61,7 @@ Visando atender os requisitos do nosso projeto utilizamos a arquitetura Kubernet
 Como premissa do projeto foi necessário a implementação da integração da aplicação com o Mercado Pago. Isso foi realizado, criando uma conta de desenvolvedor e configurando as informações para que fosse possível realizar o Checkout do pedido, acionando o serviço para geração do QrCode de pagamento. 
 
 ## Link Youtube:
-[[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=mpwHyEbF_P0)](https://www.youtube.com/watch?v=bx2ClhqlTrI)
+https://www.youtube.com/watch?v=bx2ClhqlTrI
 
 ## Implementação
 Para implantar o projeto, utilizamos o conceito de containers com o Docker como ferramenta de gerenciamento. Nosso projeto usa tanto Dockerfile quanto Docker-compose. Utilizamos uma imagem do Java com Spring e uma imagem do Postgres para rodar o banco de dados localmente e realizar as operações de CRUD da nossa aplicação.
