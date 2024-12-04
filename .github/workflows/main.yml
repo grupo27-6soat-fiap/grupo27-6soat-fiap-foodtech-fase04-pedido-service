@@ -20,6 +20,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    
+      - name: Check if commit is a direct commit to production
+        run: |
+          # Verifica se o commit foi feito diretamente na branch de produção
+          if [ "$(git rev-parse --abbrev-ref HEAD)" == "master" ]; then
+            echo "Committing directly to production is not allowed!" && exit 1
+          fi
+          
+      - name: Fail if there is a direct push to production
+        run: |
+          echo "Direct push to production is not allowed!"
+          exit 1
       - name: Set short git commit SHA
         id: commit
         uses: prompt/actions-commit-hash@v3
