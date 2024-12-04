@@ -1,4 +1,4 @@
-name: grupo27-6soat-fiap-foodtech-fase04-pedido-service_build
+name: grupo27-6soat-fiap-foodtech-fase04-producao-service_build
  
 on:
   push:
@@ -51,8 +51,8 @@ jobs:
         run: |
             chmod +x ./gradlew # Adiciona permissão de execução
             ./gradlew clean build sonar \
-            -Dsonar.projectKey=grupo27-6soat-fiap_produto-fase04 \
-            -Dsonar.organization=grupo27-6soat-fiap \
+            -Dsonar.projectKey=grupo27-6soat-fiap_grupo27-6soat-fiap-foodtech-fase04-pedido-service \
+            -Dsonar.organization=grupo27-6soat-fiap-1 \
             -Dsonar.host.url=https://sonarcloud.io
           
 # sed -i.bak "s|jdbc:postgresql://postgres-svc:5432/postgres|jdbc:postgresql://$RDS_HOSTNAME:5432/postgres|g" k8s/deployment-app.yml && \
